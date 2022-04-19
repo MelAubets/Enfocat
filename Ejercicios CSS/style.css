@@ -14,7 +14,7 @@ a{
     appearance: button;
     
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin: 20px;
     box-sizing: content-box;
     padding: 5%;
