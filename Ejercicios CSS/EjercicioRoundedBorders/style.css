@@ -1,0 +1,38 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    margin: 0px;
+}
+
+span{
+    background-color: aqua;
+}
+
+table{
+    width: 600px;
+    border: 5px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: bisque;
+}
+
+td:not(.foot){
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.foot{
+    background-color: aqua;
+}
+
+

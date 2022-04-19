@@ -1,0 +1,13 @@
+@import url(c:\Users\Mel\Desktop\JavaFundEsplai\Apuntes\bootstrap\node_modules\bootstrap\dist\css\bootstrap.min.css);
+@media (max-width: 767.98px) {
+  html {
+    background-color: violet;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  html {
+    background-color: green;
+  }
+}
+/*# sourceMappingURL=style.css.map */

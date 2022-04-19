@@ -1,0 +1,30 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+button{
+    width: 200px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-family: Calibri;
+    cursor: pointer;
+}
+
+.button1{
+    text-align: left;
+}
+
+.button2{
+    text-align: center;
+}
+
+.button3{
+    text-align: right;
+}

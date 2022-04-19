@@ -1,0 +1,83 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.white{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.red1, .red2, .red3, .red4, .red5{
+    box-sizing: border-box;
+    border: 10px solid red;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.red1{
+    width: 180px;
+    height: 180px;
+    top: 10px;
+    left:10px;
+    border-width: 2px;
+    box-shadow: 10px -4px 15px rgba(110, 110, 110, 0.384);
+}
+
+.red2{
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+}
+
+.red3{
+    width: 120px;
+    height: 120px;
+    top: 40px;
+    left: 40px;
+}
+
+.red4{
+    width: 80px;
+    height: 80px;
+    top: 60px;
+    left: 60px;
+}
+
+.red5{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    top: 80px;
+    left: 80px;
+}
+
+.vLine{
+    top: 10px;
+    left: 99px;
+    width: 2px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 100;
+}
+
+.hLine{
+    top: 99px;
+    left: 10px;
+    width: 180px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 100;
+}
+

@@ -1,0 +1,97 @@
+/*----------------------------------
+ejercicio 1
+*{
+    background-color: pink;
+}
+/*----------------------------------
+ejercicio 2
+p{
+    background-color: bisque;
+}
+/*----------------------------------
+ejercicio 3
+#title-1{
+    color: blue;
+}
+/*----------------------------------
+ejercicio 4
+.bg-yellow{
+    background-color: yellowgreen;
+}
+/*----------------------------------
+ejercicio 5
+[id]{
+    background-color: cadetblue;
+}
+/*----------------------------------
+/*ejercicio 6
+[id="title-1"]{
+
+    background-color: yellowgreen;
+}
+/*----------------------------------
+ejercicio 7
+[href="https://www.yahoo.com"]{
+    background-color: aquamarine;
+}
+
+/*----------------------------------
+ejercicio 8
+[class^="title"]{
+    background-color: aqua;
+}
+
+/*----------------------------------
+ejercicio 9
+[href$=".com"]{
+    background-color: blueviolet;
+}
+
+/*----------------------------------
+ejercicio 10
+[class|="title"]{
+    background-color: blue;
+}
+
+/*----------------------------------
+ejercicio 11
+[href*="127"]{
+    background-color: aquamarine;
+}
+
+/*----------------------------------
+ejercicio 12
+[href^="http"]{
+    background-color: aqua;
+}
+
+/*----------------------------------
+ejercicio 13
+a, p, h1{
+    background-color: aquamarine;
+}
+
+/*----------------------------------
+ejercicio 14
+main p{
+    background-color: blueviolet;
+}
+
+/*----------------------------------
+ejercicio 15
+h1 + *{
+    background-color: brown;
+}
+
+/*----------------------------------
+ejercicio 16
+h1 ~ *{
+    background-color: cadetblue;
+}
+
+/*----------------------------------
+ejercicio 17
+main *{
+    background-color: blueviolet;
+}
+*/

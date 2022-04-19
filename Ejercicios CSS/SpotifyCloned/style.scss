@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap');
+
+html, body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Signika',sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        display: inline;
+        width: 10%;
+        height: 10%;
+    }
+    margin:1%;
+}
+
+button{
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid #00B172;
+    border-radius: 10px;
+}
+
+p{
+    font-weight: 300;
+}
+
+.imgLetters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background: url(./images/landing.jpg) no-repeat center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.whatsOn{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .buttonsBody{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 5%;
+    }
+    button{
+        img{
+            height: 20%;
+            width: 20%;
+        }
+        width: 15%;
+        justify-content: space-between;
+        h3{
+            color: #00B172;
+        }
+    }
+    h2{
+        text-decoration: underline #00B172;
+    }
+}
+
+footer{
+    background-image: url(./images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    height: auto;
+    width: 100%;
+    background-color: #00B172;
+    color: white;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 25% 30% 30%;
+    img{
+        align-self: center;
+        justify-self: center;
+        width: 45%;
+        grid-column: 2;
+        grid-row: 1/5;
+    }
+    h2{
+        margin-top: 0%;
+        align-self:flex-start;
+        justify-self: flex-start;
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 10%;
+        text-decoration: underline;
+    }
+    
+    .option1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .option2{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .option3{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    [class^=option]{
+        align-self:flex-start;
+        justify-self: flex-start;
+        box-sizing: border-box;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        width: 45%;
+    }
+    [class^=option]:hover{
+        border-radius: 10px;
+        background-color: white;
+        color: #00B172;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .whatsOn{
+        button{
+            width:auto;
+        }
+    }
+
+    footer{
+        [class^=option]{
+            padding-right: 5%;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .whatsOn{
+        .buttonsBody{
+            flex-direction: column;
+        }
+        button{
+            width:auto;
+        }
+    }
+
+    footer{
+        background-image: none;
+        h2{
+            margin:0%;
+            padding: 0%;
+            justify-self: center;
+            grid-column: 1/3;
+        }
+        img{
+            display: none;
+        }
+        [class^=option]{
+            width: 80%;
+            grid-column: 1/3;
+            margin:0%;
+            padding: 0%;
+            justify-self: center;
+            margin-bottom: 5%;
+        }
+    }
+}

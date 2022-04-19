@@ -1,0 +1,3 @@
+emilystrange93@gmail.com
+
+[a-zA-ZñÑ0-9_.-]+@(([a-zA-ZñÑ0-9]+)|(([a-zA-ZñÑ0-9]+)/.([a-zA-ZñÑ0-9]+)))\.(com|es|cat)$

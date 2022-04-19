@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+    padding: 30px;
+    border-top: 10px dotted green;
+    border-left: 20px double black;
+    border-right: 20px dashed blue;
+    border-bottom: 10px solid red;
+}

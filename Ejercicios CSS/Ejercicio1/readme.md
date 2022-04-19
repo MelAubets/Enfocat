@@ -1,0 +1,2 @@
+# [Primer exercici CSS](https://melaubets.github.io/FirstExerciseCSS/)
+En aquest exercici s'ha dissenyat un formulari que solicitarà l'edat i només donarà per vàlides aquelles edats entre 1 i 120 anys.
