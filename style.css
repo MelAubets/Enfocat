@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
 
 html, body{
     display: flex;
@@ -6,6 +6,7 @@ html, body{
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Roboto Mono', monospace;
+    background-color: rgb(140, 180, 180);
 }
 
 a{
@@ -13,13 +14,16 @@ a{
     -moz-appearance: button;
     appearance: button;
     
+    height: max-content;
+    width: 300px;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
     margin: 20px;
     box-sizing: content-box;
     padding: 5%;
     background-color: rgba(137, 43, 226, 0.274);
-    color: darkslategray;
+    color: rgb(19, 31, 31);
     border-radius: 10px;
     border: 2px solid rgba(137, 43, 226, 1);
     text-decoration: none;
