@@ -1,0 +1,45 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
+
+body{
+    background-color: rgb(181, 220, 221);
+    color: rgb(39, 38, 38);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.m-1{
+    text-align: center;
+}
+
+.header, .footer{
+    .m-1{
+        background-color:chartreuse;
+    }
+}
+
+.first{
+    .m-1{
+        background-color: rgb(100, 100, 175);
+    }
+}
+
+.second{
+    .m-1{
+        background-color: rgb(152, 152, 197);
+    }
+}
+
+.third{
+    .m-1{
+        background-color: coral;
+    }
+}
+
+.type{
+    .m-1{
+        background-color:rgb(0, 255, 179);
+    }
+}
+
+
+

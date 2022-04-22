@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OrderYOffset</title>
+</head>
+<body class="container">
+    <div class="header"><div class="m-1 border rounded">header</div></div>
+    <div class="row first">
+        <div class="col-sm-3 offset-md-3 col-6 offset-sm-0"><div class="m-1 border rounded">1</div></div>
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">2</div></div>
+        <div class="w-100 d-block d-sm-none d-md-block"></div>
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">3</div></div>
+        <div class="col-sm-3 offset-md-6 col-6 offset-sm-0"><div class="m-1 border rounded">4</div></div>
+    </div>
+    <div class="type row d-md-none d-sm-block d-none">
+        <div class="col-12"><div class="m-1 border rounded">Tablet</div></div>
+    </div>
+    <div class="row second">
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">a</div></div>
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">b</div></div>
+        <div class="w-100 d-block d-sm-none"></div>
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">c</div></div>
+        <div class="col-sm-3 col-6"><div class="m-1 border rounded">d</div></div>
+    </div>
+    <div class="type row d-md-block d-sm-none d-none">
+        <div class="col-12"><div class="m-1 border rounded">Desktop</div></div>
+    </div>
+    <div class="type row d-sm-none d-block">
+        <div class="col-12"><div class="m-1 border rounded">Mobile</div></div>
+    </div>
+    <div class="row third">
+        <div class="col-md-3 offset-md-3 col-sm-6 col-12 offset-sm-0"><div class="m-1 border rounded">:D</div></div>
+        <div class="col-md-3 col-sm-6 col-12"><div class="m-1 border rounded">:(</div></div>
+    </div>
+    <div class="footer"><div class="m-1 border rounded">footer</div></div>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
