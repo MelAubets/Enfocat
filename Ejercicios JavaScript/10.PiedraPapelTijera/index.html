@@ -9,15 +9,15 @@
 </head>
 <body>
     <header>
-        <button onclick="tirada('piedra', -1)">🌑</button>
-        <button onclick="tirada('papel', 0)">🧾</button>
-        <button onclick="tirada('tijera', 1)">✂️</button>
+        <button onclick="tirada('🌑', -1)">🌑</button>
+        <button onclick="tirada('🧾', 0)">🧾</button>
+        <button onclick="tirada('✂️', 1)">✂️</button>
     </header>
     <main>
+        <div id="wins"></div>
         <div id="start"></div>
-        <div class="play">
-            <div class="tiro"></div>
-        </div>
+        <div id="players"></div>
+        <div id="play"></div>
         <div id="result"></div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"

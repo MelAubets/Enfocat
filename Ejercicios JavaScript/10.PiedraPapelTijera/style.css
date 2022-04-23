@@ -1,0 +1,8 @@
+html, body,div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(140, 180, 180);
+}
