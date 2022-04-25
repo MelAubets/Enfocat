@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
+
+html, body{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(140, 180, 180);
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+div{
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+#sleep,#fight{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    height: 100%;
+    width: 100%; 
+}
+
+#sleep{
+    background-color: rgb(110, 110, 207);
+    align-items: flex-end;
+    justify-content:space-between;
+}
+
+#fight{
+    align-items: flex-end;
+    justify-content:space-between;
+    background-color: rgb(207, 110, 110);
+}
+
+#eat,#play{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    height: 100%;
+    width: 100%; 
+}
+
+#eat{
+    background-color: rgb(80, 131, 80);
+    align-items: flex-end;
+    justify-content:space-between;
+}
+
+#play{
+    background-color: rgb(236, 236, 113);
+    align-items: flex-end;
+    justify-content:space-between;
+}
+
+.ext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 5%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#hungry, #fun, #strenght, #energy{
+    width: 95%;
+    height: 80%;
+    background: rgb(51, 231, 6);
+    border-radius: 10px;
+}
