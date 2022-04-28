@@ -6,4 +6,5 @@ select first_name as nombre, last_name as apellido, phone_number as telefono fro
 select * from employees where phone_number='515.127.4565';
 delete from employees where phone_number='515.127.4565';
 select * from employees where phone_number='515.127.4565';
+select * from employees where (salary > 5000) and department_id='5';
  
