@@ -6,14 +6,14 @@ public class HelloWorld {
 				+ "Bye\"Bye World \n\'soo\n"
 				+ "Hello\\ByeBye World!");
 		
-		boolean isTrue = true;
-		char character = 'a';
-		byte thisIsAByte = 1;
-		short thisIsAShort = 2;
-		int thisIsAInt = 3;
-		long thisIsALong = 4;
-		float thisIsAFloat = 0.1f;
-		double thisIsADouble = 0.2;
+		final boolean isTrue = true;
+		final char character = 'a';
+		final byte thisIsAByte = 1;
+		final short thisIsAShort = 2;
+		final int thisIsAInt = 3;
+		final long thisIsALong = 4;
+		final float thisIsAFloat = 0.1f;
+		final double thisIsADouble = 0.2;
 		
 		
 		System.out.println(String.valueOf(isTrue)+character+thisIsAByte+
