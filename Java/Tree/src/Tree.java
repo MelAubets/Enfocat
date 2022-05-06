@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
 public class Tree {
-	
-	//public static int max_size = 22;
-	//public static int trunk_size = 4;
-	
 
 	public static void main(String[] args) {
 		
